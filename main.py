@@ -1,6 +1,6 @@
 import sys
 import subprocess
-sys.path.append('../')
+# sys.path.append('../')
 from frontend.clexer import Lexer
 from frontend.cparser import Parser
 from backend.codegen import CodeGenerator
@@ -35,7 +35,7 @@ func main(){
   
    printf("hello world\n")
    
-   printf("My name is saugat")
+
    
    }
    """
